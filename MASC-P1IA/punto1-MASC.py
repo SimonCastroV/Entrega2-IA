@@ -65,7 +65,7 @@ plt.title(f"Matriz de Confusión (Accuracy: {accuracy:.2f})")
 plt.xlabel("Predicción")
 plt.ylabel("Real")
 plt.tight_layout()
-plt.savefig("matriz_confusion.png")
+plt.savefig("./MASC-P1IA/matriz_confusion.png")
 plt.show()
 
 print("\n Se ha guardado la matriz de confusión en 'matriz_confusion.png'")

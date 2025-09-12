@@ -11,9 +11,9 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import seaborn as sns
 
 # 1. Cargar dataset
-df = pd.read_csv("train.csv")
+df = pd.read_csv("./MASC-P1IA/train.csv")
 
-print("✅ Dataset cargado con éxito")
+print(" Dataset cargado con éxito")
 print(df.head(), "\n")
 
 # 2. Preprocesamiento
@@ -68,4 +68,4 @@ plt.tight_layout()
 plt.savefig("matriz_confusion.png")
 plt.show()
 
-print("\n✅ Se ha guardado la matriz de confusión en 'matriz_confusion.png'")
+print("\n Se ha guardado la matriz de confusión en 'matriz_confusion.png'")

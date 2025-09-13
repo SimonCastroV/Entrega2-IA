@@ -75,10 +75,10 @@
 
 ### 1) Modelo clásico (MASC-P11A)
 **Matriz de Confusión:**  
-![Matriz de Confusión Modelo Clásico](MASC-P11A/matriz_confusion.png)
+![Matriz de Confusión Modelo Clásico](MASC-P1IA/matriz_confusion.png)
 
-**Otra visualización (si aplica):**  
-![Visualización Modelo Clásico](MASC-P11A/image.png)
+**Accuracy (barra/resumen):**  
+![Accuracy](MASC-P1IA/image.png)
 
 ---
 
@@ -136,6 +136,7 @@
    python -m venv .venv
    .\.venv\Scripts\activate
    pip install -r requirements.txt
+
 
 
 

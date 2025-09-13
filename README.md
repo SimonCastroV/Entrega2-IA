@@ -1,5 +1,8 @@
 # Informe 2– Aplicación de Algoritmos de Machine Learning
-
+## Integrantes del Equipo
+-  Santiago Villamizar
+-  Simon Esteban Castro
+-  Alberto Daniel Cervantes
 ## 1. Descripción del Dataset
 
 - **Fuente:** [Titanic – Machine Learning from Disaster (Kaggle)](https://www.kaggle.com/c/titanic)
@@ -136,6 +139,7 @@
    python -m venv .venv
    .\.venv\Scripts\activate
    pip install -r requirements.txt
+
 
 
 

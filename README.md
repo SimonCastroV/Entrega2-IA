@@ -96,7 +96,7 @@
 
 ### 3) Gradient Boosting Classifier
 **Accuracy (barra/resumen):**  
-![Accuracy GBC](Entrega2-IA/GBC/outputs_gbc/Accuracy.png)
+![Accuracy GBC](GBC/outputs_gbc/Accuracy.png)
 
 **Matriz de Confusión:**  
 ![Matriz de Confusión GBC](Entrega2-IA/GBC/outputs_gbc/matriz_confusion_gbc.png)
@@ -136,3 +136,4 @@
    python -m venv .venv
    .\.venv\Scripts\activate
    pip install -r requirements.txt
+

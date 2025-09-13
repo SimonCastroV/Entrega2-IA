@@ -75,22 +75,22 @@
 
 ### 1) Modelo clásico (MASC-P11A)
 **Matriz de Confusión:**  
-![Matriz de Confusión Modelo Clásico](Entrega2-IA/MASC-P11A/matriz_confusion.png)
+![Matriz de Confusión Modelo Clásico](MASC-P11A/matriz_confusion.png)
 
 **Otra visualización (si aplica):**  
-![Visualización Modelo Clásico](Entrega2-IA/MASC-P11A/image.png)
+![Visualización Modelo Clásico](\MASC-P11A/image.png)
 
 ---
 
 ### 2) Red Neuronal (Keras)
 **Curva de Accuracy:**  
-![Curva de Accuracy RN](Entrega2-IA/redNeuronal/outputs_p2/curva_accuracy.png)
+![Curva de Accuracy RN](redNeuronal/outputs_p2/curva_accuracy.png)
 
 **Curva de Pérdida:**  
-![Curva de Pérdida RN](Entrega2-IA/redNeuronal/outputs_p2/curva_perdida.png)
+![Curva de Pérdida RN](redNeuronal/outputs_p2/curva_perdida.png)
 
 **Matriz de Confusión:**  
-![Matriz de Confusión RN](Entrega2-IA/redNeuronal/outputs_p2/matriz_confusion_RN.png)
+![Matriz de Confusión RN](redNeuronal/outputs_p2/matriz_confusion_RN.png)
 
 ---
 
@@ -99,7 +99,7 @@
 ![Accuracy GBC](GBC/outputs_gbc/Accuracy.png)
 
 **Matriz de Confusión:**  
-![Matriz de Confusión GBC](Entrega2-IA/GBC/outputs_gbc/matriz_confusion_gbc.png)
+![Matriz de Confusión GBC](GBC/outputs_gbc/matriz_confusion_gbc.png)
 
 
 ---
@@ -136,4 +136,5 @@
    python -m venv .venv
    .\.venv\Scripts\activate
    pip install -r requirements.txt
+
 

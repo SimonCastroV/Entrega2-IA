@@ -1,0 +1,16 @@
+Resultados Red Neuronal (Keras)
+Accuracy: 0.7877
+
+Matriz de confusión:
+[[91 19]
+ [19 50]]
+
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.83      0.83      0.83       110
+           1       0.72      0.72      0.72        69
+
+    accuracy                           0.79       179
+   macro avg       0.78      0.78      0.78       179
+weighted avg       0.79      0.79      0.79       179

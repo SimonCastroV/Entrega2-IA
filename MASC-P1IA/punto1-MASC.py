@@ -2,6 +2,7 @@
 # PUNTO 1 - MODELO DE APRENDIZAJE CLÁSICO
 # =======================================
 
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -11,7 +12,11 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import seaborn as sns
 
 # 1. Cargar dataset
-df = pd.read_csv("./MASC-P1IA/train.csv")
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(THIS_DIR)
+DATA_PATH = os.path.join(ROOT_DIR, "data", "train.csv")
+
+df = pd.read_csv(DATA_PATH)
 
 print(" Dataset cargado con éxito")
 print(df.head(), "\n")
@@ -59,13 +64,15 @@ print("\nMatriz de confusión:\n", cm)
 print("\nReporte de clasificación:\n", report)
 
 # 6. Graficar matriz de confusión y guardarla
+OUT_IMG = os.path.join(THIS_DIR, "matriz_confusion.png")
+
 plt.figure(figsize=(6, 4))
 sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
 plt.title(f"Matriz de Confusión (Accuracy: {accuracy:.2f})")
 plt.xlabel("Predicción")
 plt.ylabel("Real")
 plt.tight_layout()
-plt.savefig("./MASC-P1IA/matriz_confusion.png")
+plt.savefig(OUT_IMG)
 plt.show()
 
 print("\n Se ha guardado la matriz de confusión en 'matriz_confusion.png'")
